@@ -3,7 +3,7 @@
 ## Project: Will Customer Accept the Cupon?
 
 ### Executive Summary
-This project analyzes a dataset containing survey responses regarding whether a driver would accept various coupons (i.e. Bars, Coffee Houses, Carry Away, Cheap Restaurants and Expensive Restaurants) based on their current context (i.e. destination, passanger, weather, temperature, time, gender, age and expiration).
+This project analyzes a dataset containing survey responses regarding whether a driver would accept various coupons (i.e. Bars, Coffee Houses, Carry Away, Cheap Restaurants and Expensive Restaurants) based on their current context (i.e. destination, passanger, weather, temperature, time, gender, age and expiration). The plots of choice for this analysis are based on the fact survey data is almost all categorical (i.e. text labels like "Sunny", "10AM", "Student"), therefore, scatter plots or histrograms would not have been very useful.
 
 ### Key Findings on "Coffee House" Coupons
 
@@ -47,6 +47,7 @@ This suggests drivers view coffee as a mid-morning break or an afternoon "boost"
 1. Each coupon code requires it's own analysis
 2. It will be interesting to further explore if there are other factors besides income and occupation motivating people to select cheaper restaurants vs expensive restaurants
 3. The "Greater than or Equal to" categories need further exploration
+4. Transformation of some data from categorical string to a nunmber in order to enable analysis with other type of plots like Scatter, Histograms or Box Plots might be useful but requires further exploration
 
 ### Repository Structure
 ```text
